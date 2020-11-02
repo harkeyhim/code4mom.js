@@ -7,3 +7,6 @@
 
 ##### read the docs.txt to know how to use it ..
 ##### i will drop the docs link letter
+
+
+## the code is in the master branch
