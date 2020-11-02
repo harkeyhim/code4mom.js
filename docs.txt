@@ -1,0 +1,54 @@
+code4mom.js is a simple light weight library you can use to create simple web apps ( manipulate dom )
+  you can 
+  * manipulate dom 
+  * prevent form action 
+  *access your web cam
+
+  ##to write to an element with code4mom.js
+  el('h3').print('hello world ) 
+
+  the el() get the element of your tag and print() write to the element
+
+  ## To prevent form input just use 
+  el('form).prevent()
+  use the el() to get the form tag and use prevent() to stop it action
+
+  ## Access web came with code4mom.js just use 
+  el('video).webcam()
+  the el() get the element of the video and webcam() access your camera
+
+  ## hiding and showing element with code4mom.js
+  el('//eleent').hide() to hide and el('//element).block() to show
+
+  ##add and remove class with code4mom.js
+  el().cls(//className) to add class and el('//element').remove() to remove class
+
+  ## add event listener with code4mom.js just use 
+  el() to get the element and on(//your event , function ) 
+  example is 
+  el('button).on('click',()=>{
+      alert('hello thid is code4mom.js)
+  })
+  this sample get the element of a button and add a click event to it 
+
+  ##write to dom context just use 
+  el('//element').text('hello world')
+
+  ##create an HTML element with code4mom.js 
+
+    create('//element name ').elem('content here')
+    for example
+create('div').elem('hello testing code4mom')
+
+in the sample this creater a div that has a text hello testu=ing code4mom.js
+
+##to use viberator in code4mom.js
+  app().shake(//duration in milliseconds )
+  example is 
+  app().shake(2000)
+    in the sample your device vierates for 2 seconds 
+
+    ##to get input value with code4mom.js 
+
+    el('input).value()
+  
